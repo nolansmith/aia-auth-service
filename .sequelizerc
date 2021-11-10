@@ -1,0 +1,8 @@
+// Set default configuration for Sequelize
+const path = require('path');
+module.exports = {
+  config: path.resolve(__dirname, './aia-db-lib/config/index.js'),
+  'migrations-path': './aia-db-lib/migrations',
+  'models-path': './aia-db-lib/models',
+  'seeders-path': './aia-db-lib/seeders'
+};
